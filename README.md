@@ -10,7 +10,7 @@ Run Docker container
 docker run -ti --name=vanad vanad mvn spring-boot:run
 ```
 
-# Bash commands
+# Bash commands (using curl)
 ## Create entity
 ```bash
 ./create.sh http://rest-host:port
