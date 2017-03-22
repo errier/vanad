@@ -10,7 +10,9 @@ Run tests
 mvn test
 ```
 > May sometimes throw Exception:
-> "Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL)"
+>
+> "Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL)".
+>
 > I don't know how to fix this: I already applied the proposed solution to the application.properties file.
 
 # Docker
