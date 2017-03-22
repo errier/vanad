@@ -1,4 +1,15 @@
 # Vanad demo application
+
+# Maven
+Run application
+```bash
+mvn spring-boot:run
+```
+Run tests
+```bash
+mvn test
+```
+
 # Docker
 Build Docker image
 ```bash
