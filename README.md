@@ -7,7 +7,9 @@ docker build -f Dockerfile -t vanad
 
 Run Spring boot application
 ```bash
-docker run -ti --name=vanad vanad mvn spring-boot:run
+docker run -tdi --name=vanad vanad mvn spring-boot:run # Run as daemon
+docker stop vanad # Stop container
+docker start vanad # Start container
 ```
 
 # Bash commands (using curl)
