@@ -2,12 +2,13 @@
 # Docker
 Build Docker image
 ```bash
-docker build -f Dockerfile -t vanad
+docker build -f Dockerfile -t vanad .
 ```
 
 Run Spring boot application
 ```bash
 docker run -tdi --name=vanad vanad mvn spring-boot:run # Run as daemon
+docker logs -f vanad # Tail log
 docker stop vanad # Stop container
 docker start vanad # Start container
 ```
