@@ -1,4 +1,4 @@
-# vanad demo application
+# Vanad demo application
 # Docker
 Build Docker image
 ```bash
