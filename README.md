@@ -1,5 +1,3 @@
-# Vanad demo application
-
 # Maven
 Run application
 ```bash
